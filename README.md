@@ -17,6 +17,13 @@ python -m venv venv
 ```
 ---
 
+### 3. Activate virtual environment
+
+Windows:
+```bash
+venv\Scripts\activate
+```
+
 ## Run the project
 
 ### Seed data
@@ -35,6 +42,8 @@ python main.py enroll --student-id 1 --course CS101
 python main.py add-grade --student-id 1 --course CS101 --grade 95
 
 python main.py list students
+python main.py list courses
+python main.py list enrollments
 python main.py avg --student-id 1 --course CS101
 python main.py gpa --student-id 1
 ```
