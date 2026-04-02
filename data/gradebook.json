@@ -1,0 +1,70 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "name": "Altina"
+        },
+        {
+            "id": 2,
+            "name": "Mimoza"
+        },
+        {
+            "id": 3,
+            "name": "Zgjim"
+        },
+        {
+            "id": 4,
+            "name": "Altina"
+        },
+        {
+            "id": 5,
+            "name": "Mimoza"
+        },
+        {
+            "id": 6,
+            "name": "Zgjim"
+        }
+    ],
+    "courses": [
+        {
+            "code": "CS101",
+            "title": "Intro to CS"
+        },
+        {
+            "code": "MATH101",
+            "title": "Basic Math"
+        }
+    ],
+    "enrollments": [
+        {
+            "student_id": 1,
+            "course_code": "CS101",
+            "grades": [
+                90,
+                80
+            ]
+        },
+        {
+            "student_id": 1,
+            "course_code": "MATH101",
+            "grades": [
+                85
+            ]
+        },
+        {
+            "student_id": 2,
+            "course_code": "CS101",
+            "grades": [
+                70,
+                75
+            ]
+        },
+        {
+            "student_id": 3,
+            "course_code": "MATH101",
+            "grades": [
+                95
+            ]
+        }
+    ]
+}
